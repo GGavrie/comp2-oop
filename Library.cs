@@ -75,6 +75,15 @@ public class Library
         }
     }
 
+    public void DisplayLibraryInfo()
+    {
+        Console.WriteLine("Books:");
+        DisplayBooks();
+        Console.WriteLine();
+        Console.WriteLine("Patrons:");
+        DisplayPatrons();
+    }
+
     private Book? FindBookByIsbn(string isbn)
     {
         foreach (var book in Books)
