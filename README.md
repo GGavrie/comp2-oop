@@ -80,6 +80,10 @@ Title: Business Insights with AI, Author: Olivia Carter, Available Copies: 2
 Title: Analytics in Action, Author: Nathan Brooks, Available Copies: 5
 ```
 
+## Screenshot
+
+![Program Output](screenshot.png)
+
 ---
 
 ## Run the Application
