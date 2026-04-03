@@ -15,4 +15,17 @@ public class Book
         AvailableCopies -= 1;
         return true;
     }
+
+    public void ReturnBook()
+    {
+        AvailableCopies += 1;
+    }
+
+    public void UpdateDetails(string title, string author, string isbn, int availableCopies)
+    {
+        Title = title;
+        Author = author;
+        ISBN = isbn;
+        AvailableCopies = availableCopies;
+    }
 }
