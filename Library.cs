@@ -35,9 +35,11 @@ public class Library
             throw new ArgumentNullException(nameof(patron));
         }
 
-        if (string.IsNullOrWhiteSpace(patron.Name) || string.IsNullOrWhiteSpace(patron.Email))
+        if (string.IsNullOrWhiteSpace(patron.Name) ||
+            string.IsNullOrWhiteSpace(patron.Email) ||
+            string.IsNullOrWhiteSpace(patron.ID))
         {
-            throw new ArgumentException("Patron must include Name and Email.", nameof(patron));
+            throw new ArgumentException("Patron must include Name, Email, and ID.", nameof(patron));
         }
 
         Patrons.Add(patron);
@@ -112,7 +114,7 @@ public class Library
         DisplayPatrons();
     }
 
-    private Book? FindBookByIsbn(string isbn)
+    private Book FindBookByIsbn(string isbn)
     {
         foreach (var book in Books)
         {

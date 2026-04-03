@@ -5,6 +5,18 @@ public class Book
     public string ISBN { get; set; } = string.Empty;
     public int AvailableCopies { get; set; }
 
+    public Book()
+    {
+    }
+
+    public Book(string title, string author, string isbn, int availableCopies)
+    {
+        Title = title;
+        Author = author;
+        ISBN = isbn;
+        AvailableCopies = availableCopies;
+    }
+
     public bool IsAvailable()
     {
         return AvailableCopies > 0;

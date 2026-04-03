@@ -1,10 +1,21 @@
 public class Person
 {
-    public int ID { get; set; }
+    public string ID { get; set; } = string.Empty;
     public string Name { get; set; } = string.Empty;
     public string Email { get; set; } = string.Empty;
 
-    public void UpdateContact(string name, string email, int id)
+    public Person()
+    {
+    }
+
+    public Person(string name, string email, string id)
+    {
+        Name = name;
+        Email = email;
+        ID = id;
+    }
+
+    public void UpdateContact(string name, string email, string id)
     {
         Name = name;
         Email = email;

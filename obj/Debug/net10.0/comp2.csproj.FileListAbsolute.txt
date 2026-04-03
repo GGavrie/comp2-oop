@@ -1,0 +1,14 @@
+/Users/gavriegrant/comp2/bin/Debug/net10.0/comp2
+/Users/gavriegrant/comp2/bin/Debug/net10.0/comp2.deps.json
+/Users/gavriegrant/comp2/bin/Debug/net10.0/comp2.runtimeconfig.json
+/Users/gavriegrant/comp2/bin/Debug/net10.0/comp2.dll
+/Users/gavriegrant/comp2/bin/Debug/net10.0/comp2.pdb
+/Users/gavriegrant/comp2/obj/Debug/net10.0/comp2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gavriegrant/comp2/obj/Debug/net10.0/comp2.AssemblyInfoInputs.cache
+/Users/gavriegrant/comp2/obj/Debug/net10.0/comp2.AssemblyInfo.cs
+/Users/gavriegrant/comp2/obj/Debug/net10.0/comp2.csproj.CoreCompileInputs.cache
+/Users/gavriegrant/comp2/obj/Debug/net10.0/comp2.dll
+/Users/gavriegrant/comp2/obj/Debug/net10.0/refint/comp2.dll
+/Users/gavriegrant/comp2/obj/Debug/net10.0/comp2.pdb
+/Users/gavriegrant/comp2/obj/Debug/net10.0/comp2.genruntimeconfig.cache
+/Users/gavriegrant/comp2/obj/Debug/net10.0/ref/comp2.dll
