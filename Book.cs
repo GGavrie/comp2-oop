@@ -5,9 +5,14 @@ public class Book
     public string ISBN { get; set; } = string.Empty;
     public int AvailableCopies { get; set; }
 
+    public bool IsAvailable()
+    {
+        return AvailableCopies > 0;
+    }
+
     public bool BorrowBook()
     {
-        if (AvailableCopies <= 0)
+        if (!IsAvailable())
         {
             return false;
         }
